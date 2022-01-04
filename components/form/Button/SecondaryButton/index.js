@@ -4,7 +4,7 @@ const SecondaryButton = ({ children, onClick }) => {
   return (
     <button
       onClick={(e) => typeof onClick == 'function' && onClick(e)}
-      className={styles['button']}
+      className={styles.button}
     >
       {children}
     </button>
